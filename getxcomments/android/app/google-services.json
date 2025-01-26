@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "40353934751",
+    "project_id": "authprec",
+    "storage_bucket": "authprec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40353934751:android:a281dbc79ce18caf26e1aa",
+        "android_client_info": {
+          "package_name": "com.example.getxcomments"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPkYhDpXB4N5xfaZ_q-EqPfBV7nKCGwEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

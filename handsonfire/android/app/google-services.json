@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051531988598",
+    "project_id": "auth-3cd40",
+    "storage_bucket": "auth-3cd40.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051531988598:android:133ace7c5b1f681be01957",
+        "android_client_info": {
+          "package_name": "com.techanveshan.handsonfire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw1DFvI0FkD3n321V2o5AM4IN26vCCoP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
