@@ -26,7 +26,7 @@ RESTful API Integration: For communication with backend services.
    cd salonverse
 3. Install Dependencies
    flutter pub get
-and run: flutter run
+4. and run: flutter run
 
 
 ### Usage
