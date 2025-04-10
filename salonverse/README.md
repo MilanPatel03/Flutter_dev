@@ -71,6 +71,85 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
+
+## 📂 Project Structure
+
+| Directory / File                           | Description |
+|-------------------------------------------|-------------|
+| **lib/**                                   | Main application source code |
+| ├── **main.dart**                          | Entry point of the app |
+| ├── **commons/**                           | Shared styles and widgets |
+| │   ├── CommonColors.dart                  | App-wide color definitions |
+| │   ├── TextStyles.dart                    | Common text styles used across the app |
+| │   └── CommonAppbar.dart                  | Reusable custom app bar widget |
+| ├── **data/**                              | Data-related files (models, repositories, services) |
+| │   ├── **repositories/**                  | Data source logic and repository interfaces |
+| │   └── **services/**                      | Business logic services |
+| │       ├── **api_services/**              | API communication layer |
+| │       │   └── ApiServices.dart           | Handles all API requests |
+| │       └── **salon_services/**            | Domain-specific services |
+| │           └── ServiceController.dart     | Controller for managing salon services |
+| ├── **ui/**                                | User interface components |
+| │   ├── **auth/**                          | Authentication module |
+| │   │   ├── **controller/**                | Auth controllers |
+| │   │   │   ├── LoginController.dart       | Controller for login logic |
+| │   │   │   ├── OtpVerificationController.dart | Controller for OTP logic |
+| │   │   │   └── RegisterController.dart    | Controller for registration |
+| │   │   ├── **model/**                     | Auth models |
+| │   │   │   ├── LoginModel.dart            | Login model class |
+| │   │   │   ├── OtpVerificationModel.dart  | OTP model class |
+| │   │   │   └── RegisterModel.dart         | Register model class |
+| │   │   └── **screens/**                   | Auth UI screens |
+| │   │       ├── LoginSignupScreen.dart     | Login & Sign-up screen |
+| │   │       ├── OtpVerification.dart       | OTP screen |
+| │   │       └── SplashScreen.dart          | Splash screen |
+| │   ├── **bookings/**                      | Booking flow |
+| │   │   ├── **after_confirm/**             | Post-confirmation process |
+| │   │   │   ├── **controller/**            | BookingController.dart |
+| │   │   │   ├── **model/**                 | BookingModel.dart |
+| │   │   │   └── **screens/**               | BookingHistory.dart, SuccessfulScreen.dart |
+| │   │   └── **appointment_process/**       | Booking appointment flow |
+| │   │       ├── BookAppointment.dart       | Appointment selection screen |
+| │   │       └── BookingReview.dart         | Final review before booking |
+| │   ├── **category/**                      | Category-related screens |
+| │   │   ├── **salons_by_service_category/**| Salons filtered by service |
+| │   │   │   ├── **controller/**            | *(empty)* |
+| │   │   │   ├── **model/**                 | SalonsByServiceCategoryModel.dart |
+| │   │   │   └── **screen/**                | Gender-based service salons |
+| │   │   │       ├── **mens/**              | MensSelectedServicesSalons.dart |
+| │   │   │       └── **womens/**            | WomensSelectedServicesSalons.dart |
+| │   │   ├── **selected_salon_procedure/**  | Flow after selecting a salon |
+| │   │   │   ├── SalonProceedScreen.dart    | Main salon proceed UI |
+| │   │   │   ├── **widgets/**               | Custom widgets used in salon flow |
+| │   │   │   │   ├── SelectedSalonInfo.dart | Info display component |
+| │   │   │   │   ├── SelectedSalonTabbar.dart | Tab bar for salon flow |
+| │   │   │   │   └── **tab_four_sections/** | |
+| │   │   │   │       ├── AboutSection.dart  | Salon details section |
+| │   │   │   │       ├── ProductSection.dart| Salon product packages |
+| │   │   │   │       ├── ServiceSection.dart| Salon services offered |
+| │   │   │   │       └── StylistSection.dart| Stylist selection section |
+| │   │   └── **service_category_by_gender/**| Gender-specific service logic |
+| │   │       ├── **controller/**            | GetServiceCategoryByGenderController.dart |
+| │   │       ├── **model/**                 | SalonDetailsModel.dart, GetServiceCategoryByGenderModel.dart |
+| │   │       └── **screens/**               | GetServicesByGenderScreen.dart |
+| │   ├── **home/**                          | Home screen content |
+| │   │   ├── **controller/**                | *(empty)* |
+| │   │   ├── **model/**                     | *(empty)* |
+| │   │   └── **screens/**                   | |
+| │   │       ├── HomeScreen.dart            | Main home screen |
+| │   │       └── **widgets/**               | Home-specific widgets |
+| │   │           ├── AutoSwipeCard.dart     | Auto-sliding card widget |
+| │   │           ├── GenderSelectionWidget.dart | Gender selection UI |
+| │   │           ├── HomePageBodySection.dart | Main body of home page |
+| │   │           ├── NearBySalonsWidget.dart| Nearby salons carousel |
+| │   │           └── SearchbarWidget.dart   | Search bar component |
+| │   └── **profile/**                       | User profile management |
+| │       ├── **controller/**                | EditProfileController.dart, GetProfileController.dart |
+| │       ├── **model/**                     | EditProfileModel.dart, GetProfileModel.dart |
+| │       └── **screens/**                   | editProfile.dart, myProfile.dart |
+| └── **test/**                              | Unit and widget tests |
+
+
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
