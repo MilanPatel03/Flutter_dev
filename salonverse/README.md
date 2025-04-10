@@ -82,14 +82,14 @@ lib/
 │   ├── TextStyles.dart
 │   └── CommonAppbar.dart
 ├── data/                          # Data layer: services and repositories
-│   ├── repositories/              # Abstract data sources
-│   └── services/                  # Business logic
+│   ├── repositories/
+│   └── services/
 │       ├── api_services/
 │       │   └── ApiServices.dart
 │       └── salon_services/
 │           └── ServiceController.dart
-├── ui/                            # User interface and features
-│   ├── auth/                      # Authentication module (MVC)
+├── ui/
+│   ├── auth/
 │   │   ├── controller/
 │   │   │   ├── LoginController.dart
 │   │   │   ├── OtpVerificationController.dart
@@ -102,8 +102,8 @@ lib/
 │   │       ├── LoginSignupScreen.dart
 │   │       ├── OtpVerification.dart
 │   │       └── SplashScreen.dart
-│   ├── bookings/                  # Booking process and history
-│   │   ├── after_confirm/         # After booking confirmation (MVC)
+│   ├── bookings/
+│   │   ├── after_confirm/
 │   │   │   ├── controller/
 │   │   │   │   └── BookingController.dart
 │   │   │   ├── model/
@@ -114,9 +114,9 @@ lib/
 │   │   └── appointment_process/
 │   │       ├── BookAppointment.dart
 │   │       └── BookingReview.dart
-│   ├── category/                  # Salon category related screens
+│   ├── category/
 │   │   ├── salons_by_service_category/
-│   │   │   ├── controller/        # (empty)
+│   │   │   ├── controller/                # (empty)
 │   │   │   ├── model/
 │   │   │   │   └── SalonsByServiceCategoryModel.dart
 │   │   │   └── screen/
@@ -128,12 +128,13 @@ lib/
 │   │   │   ├── SalonProceedScreen.dart
 │   │   │   ├── widgets/
 │   │   │   │   ├── SelectedSalonInfo.dart
-│   │   │   │   ├── SelectedSalonTabbar.dart
-│   │   │   │   └── tab_four_sections/
-│   │   │   │       ├── AboutSection.dart
-│   │   │   │       ├── ProductSection.dart
-│   │   │   │       ├── ServiceSection.dart
-│   │   │   │       └── StylistSection.dart
+│   │   │   │   └── tabs/
+│   │   │   │       ├── SelectedSalonTabbar.dart
+│   │   │   │       └── tab_four_sections/
+│   │   │   │           ├── AboutSection.dart
+│   │   │   │           ├── ProductSection.dart
+│   │   │   │           ├── ServiceSection.dart
+│   │   │   │           └── StylistSection.dart
 │   │   └── service_category_by_gender/
 │   │       ├── controller/
 │   │       │   └── GetServiceCategoryByGenderController.dart
@@ -153,7 +154,7 @@ lib/
 │   │           ├── HomePageBodySection.dart
 │   │           ├── NearBySalonsWidget.dart
 │   │           └── SearchbarWidget.dart
-│   └── profile/                   # User profile (MVC)
+│   └── profile/
 │       ├── controller/
 │       │   ├── EditProfileController.dart
 │       │   └── GetProfileController.dart
