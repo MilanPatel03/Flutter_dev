@@ -101,7 +101,7 @@ Salonverse simplifies salon operations by providing a user-friendly platform whe
 [![Authentication To HomeScreen](https://github.com/MilanPatel03/Flutter_dev/blob/main/salonverse/assets/SalonAppAssets/AuthToHomeThumbnail.webp)](https://youtube.com/shorts/-pU3phlF6u8?feature=share)
 
 
-[![HomeScreen To Booking-done](salonverse/assets/SalonAppAssets/HomeToBookingThumbnail.webp)](https://youtube.com/shorts/-BTueNW8c54?feature=share)
+[![HomeScreen To Booking-done](https://github.com/MilanPatel03/Flutter_dev/blob/main/salonverse/assets/SalonAppAssets/HomeToBookingThumbnail.webp)](https://youtube.com/shorts/-BTueNW8c54?feature=share)
 
 ---
 
