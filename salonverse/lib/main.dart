@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:salonverse/Auth/Screens/LoginSignupScreen.dart';
+import 'package:salonverse/Data/Services/SalonServices/ServiceController.dart';
+import 'package:salonverse/UI/Auth/Screens/LoginSignupScreen.dart';
+import 'package:salonverse/UI/Bookings/AfterConfirm/Controller/BookingController.dart';
+
 
 void main() {
+  Get.put(ServiceController());
+  Get.put(BookingController());
   runApp(const MyApp());
 }
 
