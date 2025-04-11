@@ -98,9 +98,9 @@ Salonverse simplifies salon operations by providing a user-friendly platform whe
 
 ## 📸 Screenshots
 
-![Authentication To HomeScreen](salonverse/assets/SalonAppAssets/AuthToHome.mp4)
+![Authentication To HomeScreen](salonverse/assets/SalonAppAssets/AuthToHomeThumbnail.webp)](https://youtube.com/shorts/-pU3phlF6u8?feature=share)
 
-![HomeScreen To Booking-done](salonverse/assets/SalonAppAssets/HomeToBooking.mp4)
+![HomeScreen To Booking-done](salonverse/assets/SalonAppAssets/HomeToBookingThumbnail.webp)](https://youtube.com/shorts/-BTueNW8c54?feature=share)
 
 ---
 
