@@ -1,4 +1,4 @@
-# GeetaProject - Bhagavad Gita Slok Viewer
+# GeetaProject - Shrimad Bhagavad Gita
 
 **GeetaProject** is a Flutter application designed to provide access to the sacred text of the Bhagavad Gita. It allows users to view, download, and save verses (sloks) of the Bhagavad Gita, with options for offline access and various translations and commentaries. The app uses Hive for local storage, allowing users to access saved sloks even without an internet connection.
 
