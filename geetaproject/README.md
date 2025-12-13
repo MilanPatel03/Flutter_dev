@@ -23,7 +23,7 @@
 - [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
-- [License](#license)
+- [Acknowledgements](#Acknowledgements)
 
 ---
 
