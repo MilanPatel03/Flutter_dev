@@ -56,6 +56,7 @@ The app follows a Clean Architecture structure, ensuring separation of concerns 
 
 ### Folder Structure
 
+```plaintext
 lib/
 ├── models/
 │   ├── autherscontentmodel.dart
@@ -83,6 +84,8 @@ lib/
 │   └── views/
 │       └── (UI views for main app screens)
 └── main.dart
+```
+
 
 ### Architecture Layers and Responsibilities
 
