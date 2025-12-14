@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="60" fill="#181818" stroke="#FFAB40" stroke-width="2"/>
+
+    <!-- Grid lines -->
+    <ellipse cx="64" cy="64" rx="48" ry="22" fill="none" stroke="#FFAB40" stroke-width="1" opacity="0.35"/>
+    <ellipse cx="64" cy="64" rx="48" ry="38" fill="none" stroke="#FFAB40" stroke-width="1" opacity="0.25"/>
+
+    <ellipse cx="64" cy="64" rx="22" ry="48" fill="none" stroke="#FFAB40" stroke-width="1" opacity="0.25"/>
+    <ellipse cx="64" cy="64" rx="10" ry="48" fill="none" stroke="#FFAB40" stroke-width="1" opacity="0.20" transform="rotate(25 64 64)"/>
+
+    <!-- Africa landmass -->
+    <path
+        d="M78 40 L70 38 L62 42 L58 50 L60 60 L56 70 L60 82 L68 86 L78 82 L82 72 L80 60 L82 50 Z"
+        fill="#303030"
+        stroke="#FFAB40"
+        stroke-width="1.3"
+    />
+</svg>

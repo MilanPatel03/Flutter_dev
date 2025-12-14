@@ -1,0 +1,46 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Glow gradient -->
+        <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFF1A6"/>
+            <stop offset="40%" stop-color="#FFCC33"/>
+            <stop offset="70%" stop-color="#FF9A00"/>
+            <stop offset="100%" stop-color="#FF9600" stop-opacity="0"/>
+        </radialGradient>
+
+        <!-- Solar surface -->
+        <radialGradient id="sunSurface" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#FFF4C2"/>
+            <stop offset="50%" stop-color="#FFB400"/>
+            <stop offset="100%" stop-color="#FF7A00"/>
+        </radialGradient>
+
+        <!-- Flares -->
+        <linearGradient id="flare" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFBE46" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#FF7800" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Outer glow -->
+    <circle cx="100" cy="100" r="90" fill="url(#sunGlow)" />
+
+    <!-- Sun sphere -->
+    <circle cx="100" cy="100" r="55" fill="url(#sunSurface)" />
+
+    <!-- Radial flares -->
+    <g opacity="0.55" transform="translate(100,100)">
+        <rect x="-6" y="-110" width="12" height="50" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(30)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(60)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(90)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(120)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(150)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(180)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(210)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(240)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(270)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(300)" fill="url(#flare)" rx="6"/>
+        <rect x="-6" y="-110" width="12" height="50" transform="rotate(330)" fill="url(#flare)" rx="6"/>
+    </g>
+</svg>
