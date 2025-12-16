@@ -1,16 +1,48 @@
-# project01
+# ExploEarth 🌍
 
-A new Flutter project.
+ExploEarth is a Flutter-based UI-focused travel exploration app that allows users to discover continents, destinations, travel news, and trending content through a modern, immersive interface.
 
-## Getting Started
+## ✨ Features
+- 🌎 Explore all **7 continents** with dedicated detail screens
+- ⭐ **Top destinations** and animated suggestion stories
+- 🧭 Destination categories with **tab-based navigation**
+- 📰 Integrated **travel news sources**
+- 🎥 Trending travel videos section
+- 🌙 Clean, dark-themed and responsive UI
+- 🎞 Smooth animations and auto-scrolling content
 
-This project is a starting point for a Flutter application.
+## 🎥 App Demo
 
-A few resources to get you started if this is your first Flutter project:
+### UI Preview (Vimeo)
+![ExploEarth UI Demo]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 📸 Screenshots/Videos
+| Home Screen | Continent Page | Destinations | NewsWebViews
+|------------|---------------|--------------|
+| ![Home](https://vimeo.com/1146969963?share=copy&fl=sv&fe=ci) | ![Continent](https://vimeo.com/1146970088?share=copy&fl=sv&fe=ci) | ![Destinations](https://vimeo.com/1146970220?share=copy&fl=sv&fe=ci) | ![NewsWebViews](https://vimeo.com/1146970172?share=copy&fl=sv&fe=ci)
+
+> 📌 Screenshots are for UI demonstration purposes.
+
+## 🛠 Tech Stack
+- **Flutter** (Material UI)
+- **Dart**
+- PageView, TabBar, WebView, Animations
+- Modular & reusable widget architecture
+
+## 🧩 App Structure
+- Home Screen (Continents, Suggestions, Destinations, News, Trending)
+- Continent Detail Pages
+- Destination Categories with Tabs (Places, News, Groups)
+- Media-rich UI sections with smooth transitions
+
+## 🎯 Project Purpose
+This project is built as a Flutter UI/UX skills showcase, focusing on modern layout design, Live API Integration with real data, animations, navigation flow, and scalable application structure.
+
+## 🚀 Getting Started
+```bash
+git clone https://github.com/your-username/ExploEarth.git
+cd ExploEarth
+flutter pub get
+flutter run
