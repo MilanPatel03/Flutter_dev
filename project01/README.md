@@ -20,13 +20,13 @@ ExploEarth is a Flutter-based UI-focused travel exploration app that allows user
 
 ## 📸 Screenshots/Videos
 | Home Screen 
-| ![Home](https://vimeo.com/1146969963?share=copy&fl=sv&fe=ci) | 
+| ![Home](https://vimeo.com/1146969963?share=copy&fl=sv&fe=ci)] | 
 | Continent Section
-![Continent](https://vimeo.com/1146970088?share=copy&fl=sv&fe=ci) | 
+![Continent](https://vimeo.com/1146970088?share=copy&fl=sv&fe=ci)] | 
 | Destinations Section
-![Destinations](https://vimeo.com/1146970220?share=copy&fl=sv&fe=ci) | 
+![Destinations](https://vimeo.com/1146970220?share=copy&fl=sv&fe=ci)] | 
 | NewsWebViews Section
-![NewsWebViews](https://vimeo.com/1146970172?share=copy&fl=sv&fe=ci) |
+![NewsWebViews](https://vimeo.com/1146970172?share=copy&fl=sv&fe=ci)] |
 
 > 📌 Screenshots are for UI demonstration purposes.
 
